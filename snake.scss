@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#border{
+  
+    background-image: url(./snakeimg.jpg);
+    background-size: 100vw 100vh;
+    height: 100vh;
+}
+
+#snakeing {
+margin-left: 24%;
+background: linear-gradient(yellow , green);
+width: 90vmin;
+height: 90vmin;
+border: 2px solid black;
+display: grid;
+grid-template-columns: repeat(18 ,1fr);
+grid-template-rows: repeat(18 , 1fr);
+}
+
+.head{
+
+    
+}
