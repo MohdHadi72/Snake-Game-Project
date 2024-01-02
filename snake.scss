@@ -5,15 +5,19 @@
 }
 
 #border{
-  
+    background-repeat: no-repeat;
     background-image: url(./snakeimg.jpg);
     background-size: 100vw 100vh;
-    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 #snakeing {
-margin-left: 24%;
-background: linear-gradient(yellow , green);
+  margin-right: 6%;  
+background: linear-gradient(rgb(161, 232, 161) , rgb(226, 226, 134));
 width: 90vmin;
 height: 90vmin;
 border: 2px solid black;
@@ -24,5 +28,15 @@ grid-template-rows: repeat(18 , 1fr);
 
 .head{
 
+background-color: red;
     
+}
+.snake{
+
+    background-color: purple;
+        
+    }
+
+.food{
+    background-color: yellow;
 }
