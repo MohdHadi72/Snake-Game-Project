@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +17,7 @@
 
 #snakeing {
   margin-right: 6%;
-  background: linear-gradient(rgb(161, 232, 161), rgb(226, 226, 134));
+  background: linear-gradient(rgb(138, 225, 138), rgb(241, 241, 150));
   width: 90vmin;
   height: 90vmin;
   border: 2px solid black;
@@ -26,13 +27,39 @@
 }
 
 .head {
-  background-color: red;
+  background: linear-gradient(red, yellow);
+  border: 2px solid purple;
+  border-radius: 9px;
+  transform: scale(1.02);
 }
 
 .snake {
   background-color: purple;
+  border: 0.25vmin solid rgb(244, 239, 239);
+  border-radius: 12px;
 }
 
 .food {
-  background-color: yellow;
+  background: linear-gradient(red, purple);
+  border-radius: 8px;
+  border: 0.25vmin solid rgb(15, 15, 14);
+}
+
+#GameScore {
+  position: absolute;
+  top: 9px;
+  right: 200px;
+  font-size: 39px;
+  font-weight: bold;
+  font-family: "Alfa Slab One", serif;
+}
+
+#hiiScore {
+  padding-top: 5%;
+  position: absolute;
+  top: 9px;
+  right: 200px;
+  font-size: 39px;
+  font-weight: bold;
+  font-family: "Alfa Slab One", serif;
 }/*# sourceMappingURL=snake.css.map */
